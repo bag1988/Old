@@ -1,0 +1,47 @@
+﻿body {margin: 0px;background-color: #FFFFFF;font-family: Arial, Helvetica, sans-serif;position:relative;}
+
+/*menu*/
+.bagmenuUl ul {display:none;}
+.bagmenuUl span {cursor:pointer;}
+
+/*general*/
+.view_submenu { padding:0px 10px 0px 10px; overflow:hidden; position: absolute;z-index: 50;display: none;background-image: url(/images/fonadmin.jpg);color: #3c4c7c;
+                -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+                border-radius: 20px; background-color: #03061a;max-width: 80%; }
+.view_submenuClose {float: right; color:red; padding: 5px 10px 5px 10px; border-radius:0px 20px 0px 20px; margin-right:-10px; cursor:pointer; font-family:Arial;}
+.view_submenuClose:hover {color: #000;background-color: red;}
+.view_submenuFon { background-color: #03061a;border-radius: 20px;border-bottom: solid 1px #192351;margin-bottom: 10px;overflow-y:auto;max-height:450px;padding: 8px 0px 8px 0px;}
+.view_submenu h2 { cursor:move;  color: #B7BFF7; text-transform: uppercase; text-align: center; margin: 5px; padding:5px; }
+
+.view_submenu_div {padding: 5px 10px 5px 10px;clear:both;}
+.view_submenu_div i{font-size: smaller; color:#E04163;display:block;}
+.view_submenu_div label {width: 250px; font-size: medium;vertical-align:top;display:inline-block;margin-right:10px;}
+.view_submenu_div input[type="text"], .view_submenu_div select { width: 200px; }
+.view_submenu_div textarea { min-width: 400px; max-width: 600px; max-height: 400px; min-height: 300px; }
+.view_submenu_div input[type='text'], .view_submenu_div select, .view_submenu_div textarea { vertical-align:top; background-color:#03061a; color:#6698FF; border:1px dashed #6698FF; padding: 5px;}
+.view_submenu_div input[type='file'] {clear:both; background-color:#03061a; color:#6698FF; border:1px dashed #6698FF; padding: 5px; display:block; }
+
+.view_submenu_button {clear:both;text-align:center;}
+.view_submenu_button input {font-size:16px; float:left; margin:5px; border-radius: 20px; background-color:transparent; border:none; border-bottom: solid 1px #192351; display:block; padding: 5px 10px 5px 10px; cursor: pointer; color:#6698FF; text-decoration:none;}
+.view_submenu_button input:hover {color: #FF3300; border-bottom: solid 1px #ff3300;}
+
+
+.selectedContent { max-width: 500px;  padding: 5px; margin: 3px; position: relative; cursor:pointer; }
+.selectedContent:hover {color:#FF3300; }
+
+.newuserfile {max-width: 600px;max-height: 300px;}
+.newuserfile div {margin: 5px;float: left;text-align: center;max-height:100px;position: relative;}
+.newuserfile div i{display:block;}
+.newuserfile div span {position: absolute;width:100%;display:none;color: white;background-color:rgba(0,51,153,0.5);bottom:0px;cursor:pointer;}
+.newuserfile div:hover span {display:block;}
+
+.review_button { font-size:16px; margin:5px; border-radius: 20px; background-color:transparent; border:none; border-bottom: solid 1px #192351;  padding: 5px 10px 5px 10px; cursor: pointer; color:#6698FF; text-decoration:none; }
+.review_button:hover { color: #FF3300; border-bottom: solid 1px #ff3300; }
+
+.view_dialog_img img { border: 1px double #192351; display: block; float: left; height: 100px; margin: 5px; cursor: pointer; }
+.view_dialog_img img:hover { border: 1px double #FF3300; }
+.errormeessage {color:red;}
+
+#viewBigImg {position:absolute; background-image: url(/images/fonBlack.png); width:100%; text-align:center; z-index: 30; top:0px; left:0px;}
+#viewBigImgDiv {position:absolute; z-index: 40;}
+#viewBigImgDiv img{max-width: 1200px; max-height: 600px; cursor:pointer;}

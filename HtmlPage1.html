@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript">
+        function findMatch() {
+            var myregx = document.getElementById("idregex").value;
+            var searchstr = document.getElementById("searchtext").value;
+            var res = document.getElementById("result");
+
+            if (searchstr.match(myregx)) {
+                for (var i = 0; i < searchstr.match(myregx).length; i++) {
+                    res.innerHTML = searchstr.match(myregx)[i];
+                }
+            }
+            else
+                res.innerHTML = "not find";
+            
+        }
+        function j() {
+            alert(document.querySelectorAll("input[id^=id]")[0].id);
+        }
+        var bag = {
+            metric: ["px", "%", "pt", "in", "cm", "mm", "pc", "ex", "em"]
+        }
+
+    </script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+</head>
+<body onload="j();">
+    <div>
+    <span>Регулярное выражение</span><input type="text" onchange="findMatch()" onkeyup="findMatch()" id="idregex" />
+        </div>
+    <div>
+    <span>Текст для поиска</span><textarea rows="5" onchange="findMatch()" onkeyup="findMatch()" id="searchtext"></textarea>
+        </div>
+    <span id="result"></span>
+</body>
+</html>

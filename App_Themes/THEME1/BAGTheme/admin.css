@@ -1,0 +1,64 @@
+﻿.admin_panel { background-image: url(/images/top.png); z-index: 100; margin: 0px; width: 100%; position:fixed; top:0px; }
+.admin_panel_menu { width: 100%; padding-bottom: 10px; padding-top: 10px; overflow: hidden; }
+
+.admin_panel_menu span, .admin_panel_menu a {cursor: pointer;color: #6698FF;padding: 7px 10px 10px 10px;text-decoration: none; }
+.admin_panel_menu span:hover, .admin_panel_menu a:hover { border-top: solid 3px #ff3300;color: #FF3300;}
+
+
+.admin_top {text-align: center;font-size: 50px; font-weight:bold; padding: 20px 0px 20px 0px; color: #B7BFF7; font-style: italic;}
+.admin_left_menu { width: 15%; min-width: 200px;padding-right: 5px; float: left;text-align: center;}
+.admin_left_menu p {color: #B7BFF7; text-transform: uppercase; text-align:center; font-size:12px; width:220px;   }
+.navigationMenu {margin-top: 30px;}
+.navigationDiv a, .navigationDiv span{ font-size:16px; margin:5px; border-radius: 20px; border-bottom: solid 1px #192351; width: 200px; display:block; padding: 5px; cursor: pointer; color:#6698FF; text-decoration:none;  }
+.navigationDiv a:hover, .navigationDiv span:hover{ color: #FF3300; border-bottom: solid 1px #ff3300; }
+    
+.admin_right{ width: 80%;margin-left: 1%;margin-right: 1%;float:right; }
+.admin_right ul{ text-align:center; }
+.admin_right ul li a{ text-decoration:none; color:#6698FF; }
+.admin_right ul li{ font-size:16px; margin:5px; border-radius: 20px; display:inline; background-color:transparent; border:none; border-bottom: solid 1px #192351; padding: 5px 10px 5px 10px; cursor: pointer; color:#FF3300; text-decoration:none; }
+.admin_right ul li:hover { color: #FF3300; border-bottom: solid 1px #ff3300; }
+.admin_right ul li:hover a{ color:#FF3300; }
+.admin_table {background-color: #03061a; width: 100%;border-radius: 20px;border-bottom: solid 1px #192351;padding: 5px;text-align:left;}
+.admin_table th {padding: 5px;color: #3c4c7c;font-size: 24px;text-transform: uppercase;}
+.admin_table td{ padding: 15px 5px 15px 5px; }
+.admin_table a, .admin_table span{ padding: 3px; cursor:pointer; color:#6698FF; text-decoration:none; font-style: italic;}
+.admin_table a:hover, .admin_table span:hover{color: #FF3300; text-decoration:underline; }
+.admin_table input[type='text'], .admin_table select{ width: 80%; }
+.admin_table textarea{ min-width: 80%; max-width: 80%; }
+.admin_table input[type='text'], .admin_table select, .admin_table textarea {background-color:#03061a; color:#6698FF; border:1px dashed #6698FF; padding: 5px;}
+
+
+.adminButton{ padding: 10px 0px 10px 0px; }
+.adminButton :nth-child(n+1){ font-size:16px; float:left; margin:5px; border-radius: 20px; background-color:transparent; border:none; border-bottom: solid 1px #192351; display:block; padding: 5px 10px 5px 10px; cursor: pointer; color:#6698FF; text-decoration:none;  }
+.adminButton :nth-child(n+1):hover { color: #FF3300; border-bottom: solid 1px #ff3300; }
+
+.adminLogin {position:absolute;  width:500px; text-align: center;}
+.adminLoginDiv {border-radius: 20px; border-bottom: solid 1px #192351; padding: 5px;background-color: #03061a;}
+.adminLogin h1 {font-size: 36px; text-transform:uppercase; margin: 10px 0px 10px 0px; display:block;}
+.adminLogindiv {margin: 20px 0px 20px 0px;}
+.adminLogindiv label {font-size: 30px; width: 150px; text-align: left; display:inline-block;}
+.adminLogindiv input {background-color:#03061a; color:#6698FF; border:1px solid #6698FF; padding: 5px; width: 280px; font-size:24px;}
+.adminLoginbutton { padding:10px; }
+.adminLoginbutton input {font-size:20px; float:left; margin:5px; border-radius: 20px; background-color:transparent; border:none; border-bottom: solid 1px #192351; display:block; padding: 5px 10px 5px 10px; cursor: pointer; color:#6698FF; text-decoration:none;}
+.adminLoginbutton input:hover {color: #FF3300; border-bottom: solid 1px #ff3300;}
+
+.adminbody {background-image: url(/images/fonadmin.jpg); background-attachment:fixed; color:#3c4c7c; background-color: #03061a;font-family: "Arial";}
+
+.divmultiline {background-color:#03061a; color:#6698FF; border:1px dashed #6698FF;max-width:82%;}
+
+.editUser {background-color: #03061a; width: 95%;border-radius: 20px;border-bottom: solid 1px #192351;padding: 10px; text-align:left;}
+.editUser div {padding: 15px 5px 15px 5px;}
+.editUser div label {width: 30%; display:block; float:left;}
+.editUser div input {background-color:#03061a; color:#6698FF; border:1px dashed #6698FF; padding: 5px; width: 60%;}
+
+
+.adminViewDivListing {background-color: #03061a; width: 95%;border-radius: 20px;border-bottom: solid 1px #192351;padding: 10px; text-align:left; clear:both;}
+.adminViewDivListing div {padding: 15px 5px 15px 5px; vertical-align:top;}
+.adminViewDivListing div label {width: 30%; display:block; float:left;}
+.adminViewDivListing div input {background-color:#03061a; color:#6698FF; border:1px dashed #6698FF; padding: 5px; width: 60%;}
+.adminViewDivListing strong span {float:right;}
+.adminViewDivListing span {padding: 3px; cursor:pointer; color:#6698FF; text-decoration:none; font-style: italic; font: 14px;}
+.adminViewDivListing span:hover{ color: #FF3300; text-decoration:underline; }
+.adminViewDivListing div div div { margin:5px; max-width: 400px; display:inline-block;}
+.adminViewDivListing div div img { margin:5px; width: 200px; display:block;}
+.adminViewDivListing div div embed { width:350px;}

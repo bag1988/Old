@@ -1,0 +1,17 @@
+﻿.edit_module {background-position: left center; margin: 0px;display: block;cursor: move;height: 20px;padding: 2px;
+    background-color: #007acc;background-image: url('/images/moving_fon.png');background-repeat: repeat-x;
+    background-position: center center;color: white;font-size: 16px;font-family: 'Times New Roman';font-weight: normal;
+    font-style: normal;font-variant: normal;text-transform: none;text-decoration: none;line-height: normal;text-align: left;
+    white-space: normal;word-spacing: normal;letter-spacing: normal;vertical-align: baseline;text-indent: 0px;overflow:hidden;}
+.edit_module > dt {float: left;}
+.edit_module dt { background-color: inherit; display: block; cursor: pointer;  padding: 0px 5px 0px 5px; margin: 0px; }
+
+.edit_module dt dl {display: none;padding: 5px;background-color: inherit;border: solid 1px white;z-index: 10;position: absolute;margin:0px;}
+
+.edit_module dt:hover dl {display: block;}
+
+.edit_module dt dl dt:hover {color: #00385E;}
+.subMenuDivControl {position:absolute; background-color: #007acc;text-align:left;padding:10px;border: solid 1px white;z-index:40;}
+.subMenuDivControl dt {cursor:pointer;color:white;padding: 0px 5px 0px 5px; margin: 0px;display:block;}
+.subMenuDivControl dt:hover {color: #00385E;}
+.avatar_div {background-position: center center;width: 161px;height: 49px;position: absolute;z-index:50;background-image: url('/images/mousemove.png');background-repeat: no-repeat;cursor: move;}
